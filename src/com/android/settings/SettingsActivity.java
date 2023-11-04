@@ -735,10 +735,12 @@ public class SettingsActivity extends SettingsDrawerActivity
                 + " ms");
 
         // MKCenter verify
+        /*
         if (!MoKeeUtils.isApkInstalledAndEnabled("com.mokee.center", this)) {
             Toast.makeText(this, R.string.mkcenter_verify_failed_toast, Toast.LENGTH_LONG).show();
             finish();
         }
+        */
 
     }
 
