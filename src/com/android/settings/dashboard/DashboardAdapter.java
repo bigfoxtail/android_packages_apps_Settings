@@ -164,6 +164,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
             hasConditions |= shouldShow;
             countItem(mConditions.get(i), R.layout.condition_card, shouldShow, NS_CONDITION);
         }
+        /*
         boolean hasSuggestions = mSuggestions != null && mSuggestions.size() != 0;
         countItem(null, R.layout.dashboard_spacer, hasConditions && hasSuggestions, NS_SPACER);
         countItem(null, R.layout.suggestion_header, hasSuggestions, NS_SPACER);
@@ -175,6 +176,7 @@ public class DashboardAdapter extends RecyclerView.Adapter<DashboardAdapter.Dash
                         NS_SUGGESTION);
             }
         }
+        */
         resetCount();
         for (int i = 0; mCategories != null && i < mCategories.size(); i++) {
             DashboardCategory category = mCategories.get(i);
